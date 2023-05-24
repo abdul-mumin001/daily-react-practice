@@ -5,6 +5,8 @@ import Head from './Head';
 import Foot from './Foot';
 import Comp1 from './Comp1';
 import Counter from './Counter';
+import ChildProps from './ChildProps';
+import ParentProps from './ParentProps';
 
 function Button(props) {  
   console.log(props);
@@ -37,5 +39,6 @@ root.render(
     <Comp1></Comp1>
     <Foot></Foot>
     <Counter/>
+    <ParentProps />
   </div>
 );
